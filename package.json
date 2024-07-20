@@ -21,7 +21,7 @@
   "scripts": {
     "build": "unbuild",
     "dev": "vitest dev",
-    "lint": "eslint . && biome check .",
+    "lint": "eslint .",
     "lint:fix": "automd && eslint . --fix && biome check --apply .",
     "prepack": "pnpm build",
     "play": "jiti playground",
