@@ -1,3 +1,1 @@
-export function test() {
-  return "works!";
-}
+export { default } from "./module"
