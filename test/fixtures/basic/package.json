@@ -7,7 +7,6 @@
     "preview": "node .output/server/index.mjs"
   },
   "dependencies": {
-    "nitro-applicationinsights": "workspace:*",
     "nitropack": "2.9.6"
   }
 }
