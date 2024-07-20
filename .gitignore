@@ -6,3 +6,8 @@ dist
 .eslintcache
 *.log*
 *.env*
+.data
+.nitro
+.cache
+.output
+.env
