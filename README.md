@@ -38,22 +38,12 @@ Import:
 
 <!-- automd:jsimport cjs cdn name="pkg" -->
 
-**ESM** (Node.js, Bun)
+Add it into your nitro config: 
 
-```js
-import {} from "pkg";
-```
-
-**CommonJS** (Legacy Node.js)
-
-```js
-const {} = require("pkg");
-```
-
-**CDN** (Deno, Bun and Browsers)
-
-```js
-import {} from "https://esm.sh/pkg";
+```ts
+export default defineNitroConfig({
+    modules: ["myModule"]
+})
 ```
 
 <!-- /automd -->
@@ -68,7 +58,7 @@ import {} from "https://esm.sh/pkg";
 - Install latest LTS version of [Node.js](https://nodejs.org/en/)
 - Enable [Corepack](https://github.com/nodejs/corepack) using `corepack enable`
 - Install dependencies using `pnpm install`
-- Run interactive tests using `pnpm dev`
+- Run the nitro playground using `pnpm dev`
 
 </details>
 
